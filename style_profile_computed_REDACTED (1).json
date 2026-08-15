@@ -1,0 +1,231 @@
+{
+  "overall": {
+    "n_messages": 3412,
+    "first_person_pronoun": {
+      "gua": {
+        "count": 0,
+        "rate_per_100msg": 0.0
+      },
+      "gue": {
+        "count": 0,
+        "rate_per_100msg": 0.0
+      },
+      "aku": {
+        "count": 198,
+        "rate_per_100msg": 5.8
+      },
+      "saya": {
+        "count": 19,
+        "rate_per_100msg": 0.56
+      },
+      "ane": {
+        "count": 0,
+        "rate_per_100msg": 0.0
+      },
+      "ku": {
+        "count": 135,
+        "rate_per_100msg": 3.96
+      },
+      "-ku (sufiks terikat)": {
+        "count": 231,
+        "rate_per_100msg": 6.77
+      }
+    },
+    "second_person_pronoun": {
+      "lu": {
+        "count": 1,
+        "rate_per_100msg": 0.03
+      },
+      "lo": {
+        "count": 1,
+        "rate_per_100msg": 0.03
+      },
+      "elo": {
+        "count": 0,
+        "rate_per_100msg": 0.0
+      },
+      "kamu": {
+        "count": 1,
+        "rate_per_100msg": 0.03
+      },
+      "kau": {
+        "count": 45,
+        "rate_per_100msg": 1.32
+      },
+      "bro": {
+        "count": 1,
+        "rate_per_100msg": 0.03
+      },
+      "sis": {
+        "count": 0,
+        "rate_per_100msg": 0.0
+      }
+    },
+    "emoji_usage_rate_pct": 4.84,
+    "top_emoji": [
+      [
+        "🤣",
+        112
+      ],
+      [
+        "😭",
+        91
+      ],
+      [
+        "🔥",
+        31
+      ],
+      [
+        "😂",
+        26
+      ],
+      [
+        "😆",
+        7
+      ],
+      [
+        "😘",
+        5
+      ],
+      [
+        "🥺",
+        4
+      ],
+      [
+        "🫡",
+        4
+      ],
+      [
+        "🥹",
+        3
+      ],
+      [
+        "🙋",
+        3
+      ]
+    ],
+    "swear_word_count": 99,
+    "swear_word_rate_pct": 2.9,
+    "swear_word_breakdown": {
+      "[SW-01]": {
+        "count": 30,
+        "rate_per_100msg": 0.88
+      },
+      "[SW-02]": {
+        "count": 6,
+        "rate_per_100msg": 0.18
+      },
+      "[SW-03]": {
+        "count": 2,
+        "rate_per_100msg": 0.06
+      },
+      "[SW-04]": {
+        "count": 14,
+        "rate_per_100msg": 0.41
+      },
+      "[SW-05]": {
+        "count": 10,
+        "rate_per_100msg": 0.29
+      },
+      "[SW-06]": {
+        "count": 1,
+        "rate_per_100msg": 0.03
+      },
+      "[SW-07]": {
+        "count": 2,
+        "rate_per_100msg": 0.06
+      },
+      "[SW-08]": {
+        "count": 4,
+        "rate_per_100msg": 0.12
+      },
+      "[SW-09]": {
+        "count": 5,
+        "rate_per_100msg": 0.15
+      },
+      "[RO-01]": {
+        "count": 1,
+        "rate_per_100msg": 0.03
+      },
+      "[SW-10]": {
+        "count": 1,
+        "rate_per_100msg": 0.03
+      },
+      "[RO-02]": {
+        "count": 0,
+        "rate_per_100msg": 0.0
+      },
+      "[RO-03]": {
+        "count": 9,
+        "rate_per_100msg": 0.26
+      },
+      "[RO-04]": {
+        "count": 14,
+        "rate_per_100msg": 0.41
+      },
+      "[RO-05]": {
+        "count": 2,
+        "rate_per_100msg": 0.06
+      }
+    },
+    "emoji_rate_in_swear_msgs_pct": 12.12,
+    "emoji_rate_in_non_swear_msgs_pct": 4.62,
+    "message_length_words": {
+      "mean": 5.32,
+      "median": 3.0,
+      "p25": 1,
+      "p75": 6,
+      "max": 412
+    },
+    "laugh_markers": {
+      "wkwk": {
+        "count": 198,
+        "rate_per_100msg": 5.8
+      },
+      "hehe": {
+        "count": 8,
+        "rate_per_100msg": 0.23
+      },
+      "haha": {
+        "count": 6,
+        "rate_per_100msg": 0.18
+      },
+      "awokwok": {
+        "count": 10,
+        "rate_per_100msg": 0.29
+      }
+    }
+  },
+  "metadata": {
+    "total_contacts_analyzed": 5,
+    "total_messages_analyzed": 3412,
+    "note": "Semua angka di sini computed langsung dari corpus. Kalau ada corpus baru ditambahkan, re-run script ini untuk update seluruh profil — JANGAN edit angka manual di sini."
+  },
+  "_redaction_note": {
+    "kebijakan": "SELURUH kosakata kasar diredaksi menjadi placeholder berindeks. Seluruh count dan rate TIDAK diubah sedikit pun — hanya nama tokennya yang disembunyikan, sehingga aturan yang diturunkan dari data tetap dapat diverifikasi tanpa mengekspos istilahnya.",
+    "skema_placeholder": {
+      "[RO-nn]": "visibility='research_only' (SeedData Sec A.6) — wajib hard-exclude sebelum onboarding klien manapun",
+      "[SW-nn]": "kosakata kasar lain — tetap diredaksi untuk publikasi, kategori risiko lebih rendah"
+    },
+    "jumlah_token_kasar_diredaksi": 15,
+    "jumlah_research_only": 5,
+    "jumlah_kasar_lain": 10,
+    "daftar_placeholder_research_only": [
+      "[RO-01]",
+      "[RO-02]",
+      "[RO-03]",
+      "[RO-04]",
+      "[RO-05]"
+    ],
+    "keterangan_research_only": "Token berkategori visibility='research_only' pada style_profile (SeedData Sec A.6) wajib hard-exclude sebelum onboarding klien manapun. Ditandai di sini agar proporsinya dapat diverifikasi.",
+    "TIDAK_diredaksi": [
+      "kata ganti orang (termasuk yang count == 0 — inti klaim aturan banned)",
+      "penanda tawa (wkwk/hehe/haha/awokwok)",
+      "emoji dan seluruh statistik distribusinya",
+      "distribusi panjang pesan (mean/median/p25/p75/max)",
+      "jumlah pesan sebelum dan sesudah penyaringan"
+    ],
+    "berkas_ini_tidak_memuat": "isi percakapan dalam bentuk apa pun",
+    "pemetaan_placeholder": "stabil lintas blok overall dan per-kontak"
+  }
+}
